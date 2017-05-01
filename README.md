@@ -1,8 +1,7 @@
 # windows-shell-icons_tortoisesvn
 
 Example: You install TortoiseSVN and you can see in windows explorer that files in a repository are modified by looking at the icon.
-g
-    
+
 ![alt text](http://i.imgur.com/MqdtgX7l.png)
 
 You then install something like Dropbox or Google Drive and the TortoiseSVN icons are now missing. Windows has a limit of 15 shell icons it can use for icon overlays. The first 15 keys in the registry are the ones that are shown. Instead of manually editing the registry, I made this Powershell script to modify the registry to make TortoiseSVN folder overlay icons the priority in Windows.
